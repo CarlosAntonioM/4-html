@@ -1,0 +1,38 @@
+
+body{ text-align: center; font-family: Tahoma, Arial, Geneva, sans-serif; color:#797979;}
+
+#cont{ width: 693px; margin: 0 auto 0 auto; text-align: left; }
+
+#encabezado{
+    height: 101px;
+    margin-bottom: 40px;
+    width: 693px;
+    background: url(Images/gog.gif) no-repeat;
+    overflow: hidden;
+    text-indent: -9999%;
+    display: block;
+}
+#contenido{ width: 500px; float: left; margin-bottom: 70px;}
+
+#contenido h2{ font-size: 18px; color: #464545; font-weight: normal }
+#contenido h2 span{  color: #a7a7a7;   } /*esto nos sirve para cambiar el color a gris en los titulos cuando colocamos la etiqueta span!*/
+#contenido p{font-size: 13px;}
+
+#fotos {width: 370px;}
+#fotos div a{
+    width: 100px;
+    height: 69px;
+    float: left;
+    margin: 10px 9px 15px 9px; /*arriba, derecha, abajo, izquierda*/
+
+    text-indent: -999%; /*Si no colocamos este atributo se ve elletrero de fotografia encima */
+}
+/*Coloco el background:silver; para que se vean los cambios despues colocaremos las imagenes*/
+
+#menu{ width: 180px; float: left; text-transform: uppercase}
+
+div#menu ul li{border-left: 4px solid #e93700; margin-top: 6px; padding: 2px 0 2px 4px; list-style:none; }
+#menu ul li a{ font-size: 12px; color: #464545; text-decoration: none;}
+#menu ul li a:hover{ color: #e93700 }
+#menu ul{ margin:0; padding-left:80px; }
+#menu h3 {color: #e93700; font-size: 18px; font-weight: normal; padding-left: 80px;}
